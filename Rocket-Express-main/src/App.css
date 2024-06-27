@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.page {
+    height: 100vh;
+    background: linear-gradient(
+      45deg,
+      #83a4d4,
+      #b6fbff
+    ); /* Change colors as needed */
+    display: flex;
+    flex-direction: column;  /* Make sure child elements stack vertically */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto 20px;  /* centers the image horizontally and adds a 20px margin at the bottom */
+    max-width: 100px;     /* change this value based on your preferred logo size */
+    height: auto;
+}

@@ -1,0 +1,13 @@
+.login-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    margin: 3vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #f7f8fc;
+}
