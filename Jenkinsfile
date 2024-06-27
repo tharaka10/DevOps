@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = 'https://github.com/Dasundh99/DevOps_Final_Group_Project.git'
         BACKEND_IMAGE = 'devops_project-backend'
         FRONTEND_IMAGE = 'devops_project-frontend'
     }
@@ -10,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: "${REPO_URL}"
+                checkout scm
             }
         }
 
