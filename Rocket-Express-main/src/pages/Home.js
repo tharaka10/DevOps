@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='page'>
       <img src={Logo} alt='Company Logo' className='logo' />
-      <div className='login-header'>Rocket  Express</div>
+      <div className='login-header'>Rocket t Express</div>
       <div
         style={{
           display: 'flex',
